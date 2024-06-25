@@ -1,0 +1,147 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente y familia tipográfica principal */
+    margin: 0; /* Elimina el margen exterior del cuerpo del documento */
+    padding: 0; /* Elimina el relleno interior del cuerpo del documento */
+    background-color: #fff; /* Color de fondo para todo el documento */
+}
+
+/* Estilos para el header */
+.site-header {
+    background-color: #fff; /* Fondo del encabezado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera bajo el encabezado */
+    padding: 10px 0; /* Espaciado interno superior e inferior del encabezado */
+}
+
+.navbar-brand img {
+    max-width: 150px; /* Ancho máximo del logo en el encabezado */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+.navbar-nav .nav-link {
+    color: #333; /* Color del texto de los enlaces del menú */
+    font-weight: bold; /* Peso de la fuente para los enlaces del menú */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #555; /* Color del texto al pasar el mouse sobre los enlaces del menú */
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        background-color: #fff; /* Fondo del menú desplegable en dispositivos móviles */
+    }
+}
+
+/* Estilos para el contenido principal */
+.main-content {
+    min-height: 100vh; /* Altura mínima para ocupar toda la pantalla */
+    padding: 20px; /* Espaciado interno del contenido principal */
+}
+
+.content-wrapper {
+    background-color: #fff; /* Color de fondo del contenedor del contenido */
+    padding: 30px; /* Espaciado interno del contenedor */
+    border-radius: 8px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave del contenedor */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho completo del contenedor */
+    margin: 0 auto; /* Centrado horizontal del contenedor */
+}
+
+.post-header {
+    margin-bottom: 40px; /* Margen inferior del encabezado de la entrada */
+    text-align: center; /* Alineación centrada del texto en el encabezado */
+}
+
+.post-header .display-4 {
+    font-size: 2.5rem; /* Tamaño de fuente del título principal */
+    font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+/* Estilos para las secciones de la entrada */
+.entrada1,
+.entrada2 {
+    margin-bottom: 20px; /* Margen inferior común para las secciones de la entrada */
+}
+
+.entrada-nombre h2 {
+    font-size: 1.5rem; /* Tamaño de fuente para el nombre del proyecto */
+}
+
+.project-image {
+    margin-bottom: 20px; /* Margen inferior para la imagen del proyecto */
+}
+
+.project-image img {
+    max-width: 100%; /* Ancho máximo de la imagen del proyecto */
+    border-radius: 50%; /* Bordes redondeados de la imagen del proyecto */
+}
+
+.entrada-descripcion {
+    font-size: 1.25rem; /* Tamaño de fuente para la descripción del proyecto */
+    font-weight: bold; /* Peso de la fuente en negrita */
+}
+
+.post-content {
+    margin-bottom: 40px; /* Margen inferior del contenido de la entrada */
+}
+
+.post-content p {
+    font-size: 1rem; /* Tamaño de fuente para el contenido de la entrada */
+    line-height: 1.6; /* Altura de línea para el contenido de la entrada */
+}
+
+
+/* Estilos generales del footer */
+.footer {
+    background-color: #0f0e0e; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto en el pie de página */
+    padding: 40px 0; /* Espaciado interno superior e inferior del pie de página */
+    font-family: Arial, sans-serif; /* Familia tipográfica para el texto en el pie de página */
+}
+
+.footer .container {
+    max-width: 1000px; /* Ancho máximo del contenedor en el pie de página */
+    margin: 0 auto; /* Centrado horizontal del contenedor en el pie de página */
+}
+
+.contacto {
+    text-align: center; /* Alineación centrada del texto de contacto */
+}
+
+.contactos {
+    list-style: none; /* Elimina los estilos de lista para los íconos de contacto */
+    padding: 0; /* Elimina el relleno interior para los íconos de contacto */
+    display: flex; /* Usa flexbox para alinear elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+}
+
+.contactos li {
+    margin: 0 10px; /* Espaciado horizontal entre los íconos de contacto */
+    font-size: 18px; /* Tamaño de fuente para los íconos de contacto */
+}
+
+.contactos li a {
+    color: #fff; /* Color del texto para los enlaces de contacto */
+    text-decoration: none; /* Elimina el subrayado de los enlaces de contacto */
+}
+
+.contactos li a i {
+    margin-right: 5px; /* Espaciado derecho entre el ícono y el texto */
+}
+
+.linkedin-icon {
+    width: 24px; /* Ancho fijo para el ícono de LinkedIn */
+    height: auto; /* Altura automática para mantener la proporción */
+    vertical-align: middle; /* Alineación vertical al centro para el ícono de LinkedIn */
+}
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Ancho máximo reducido del contenedor para dispositivos móviles */
+        padding: 10px; /* Espaciado interno reducido del contenedor para dispositivos móviles */
+    }
+}
